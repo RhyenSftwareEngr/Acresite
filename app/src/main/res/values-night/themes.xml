@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OsProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Baby_Eyes</item>
+        <item name="colorPrimaryVariant">@color/Light_Silver</item>
+        <item name="colorOnPrimary">@color/Azure_White</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Light_Silver</item>
+        <item name="colorSecondaryVariant">@color/Baby_Eyes</item>
+        <item name="colorOnSecondary">@color/Azure_White</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+</resources>

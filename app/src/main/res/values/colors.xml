@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Tumbleweed">#DBA78C</color>
+    <color name="Deep_Peach">#FFC3A4</color>
+    <color name="Cookies_Cream">#DBD6AF</color>
+    <color name="Light_Silver">#DBDBD7</color>
+    <color name="Azure_White">#D8E2F8</color>
+    <color name="Baby_Eyes">#9BBBF3</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

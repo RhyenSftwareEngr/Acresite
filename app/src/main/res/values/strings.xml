@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Acresite</string>
+    <string name="products">Products</string>
+    <string name="home">Home</string>
+    <string name="seller">Seller</string>
+    <string name="me">Me</string>
+    <string name="flavor_text">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Mauris ut molestie orci.Aliquam erat volutpat. Quisque consectetur enim et nulla rhoncus maximus.Vestibulum non lectus in nisi posuere pretium.Morbi sagittis consequat quam non auctor.Cras pulvinar justo nibh, nec aliquam eros iaculis nec.Morbi porta nisl quis libero vestibulum lacinia.Etiam fringilla suscipit tempor. Aenean nec varius ligula.</string>
+    <string name="title">Product Name</string>
+    <string name="name">Brendon Urie</string>
+    <string name="address">Farfrompoopen Rd, Fannie Township, AR 71970</string>
+    <string name="onion_text">Rarely do you find an ingredient as popular and beloved across the world as the small and humble onion. Just one small bulb is enough to unpack a whole world of flavors.</string>
+    <string name="broc_text">Broccoli is one of the most expensive vegetables in the Philippines. It is boiled, steamed or stir fried. It is fairly high in Vitamin A, and a good source of Vitamin C, calcium, iron, thiamine, riboflavin and niacin.</string>
+    <string name="chili_text">Sili is the Filipino term for chili peppers. Siling mahaba, is usually a bright green but gets redder with age. Siling labuyo are smaller and much hotter—at one time even being listed in the Guinness Book of World Records as the hottest chili although the habañero and other hotter chili peppers have since been identified.</string>
+    <string name="eggplant_text">Filipino eggplants are long, slender, and cylindrical and can be straight or slightly curved. The outer skin is smooth and violet with green hues at the stem and blossom end. The inner flesh is plump and creamy white with a few, edible seeds. When cooked, Filipino eggplants are tender with a mild and sweet taste. </string>
+    <string name="apple_text">Apples are a good source of fiber and vitamin C. They also contain polyphenols, which may have numerous health benefits. </string>
+    <string name="banana_text">The banana is one of the most important fruit crops of the Philippines. It is important both as a source of local and international revenues for farmers, and an important component of the daily diet of all Filipinos. </string>
+    <string name="cabbage_text">Cabbage locally know as repolyo is probably the most popular green leafy vegetable on the market and enjoys a year round demand. </string>
+    <string name="carrot_text">It is one of the most important vegetables commonly grown in the Philippine highlands. The production areas are in Benguet, Mountain Province, Ifugao, Nueva Vizcaya, Cebu, Davao del Sur, Negros Oriental, and Bukidnon. </string>
+    <string name="corn_text">Corn is one of the most important staple crops in the Philippines. It ranks second to rice in the utilization of agricultural resources. It is used not only for human consumption but also for animal feeds and industrial uses, hence it is a vital crop in the development of the livestock and manufacturing industries. </string>
+    <string name="egg_text">Eggs contain all the amino acids needed to build and repair body tissues and transport other nutrients, while the protein helps maintain healthy muscles, hair, skin and nails.</string>
+    <string name="garlic_text">Bawang is a low herb, 30 to 60 centimeters high. True stem is much reduced. Bulbs are broadly ovoid, 2 to 4 centimeters in diameter, consisting of several, densely crowded, angular and truncated tubers. Leaves are linear and flat.</string>
+    <string name="orange_text">Dalandan is a Philippine citrus fruit, our version of orange. Its flavor and aroma is distinctly complex and strong, a beautiful balance of tartness and sweetness when it reaches its ripe stage. The juice is a flavorful base for beverage, desserts and savory dishes.</string>
+    <string name="potatoes_text">Potato(patatas) is consumed as a vegetable and occasionally as a snack item. It is ideally cooked with meat, often as a meat extender in recipes such as “adobo,” “egado,” curry, and “lumpia.”</string>
+    <string name="rice_text">As in most Asian countries, the staple food in the Philippines is rice. It is most often steamed and always served with meat, fish and vegetable dishes. Leftover rice is often fried with garlic to make sinangag, which is usually served at breakfast together with a fried egg and cured meat or sausages.</string>
+    <string name="tomatoes_text">Tomato locally known as “kamatis” in the Philippines, is an edible, red berry-type fruit of the Nightshade family.</string>
+    <string name="mango_text">Succulent, meaty, sweet, nutritious and deliciously tempting, these are just some words to describe Philippine Mangoes. Mango or mangga in Filipino, is the national fruit of the Philippines and is then third most important fruit crop of the country next to banana and pineapple.</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OsProject" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Tumbleweed</item>
+        <item name="colorPrimaryVariant">@color/Cookies_Cream</item>
+        <item name="colorOnPrimary">@color/Deep_Peach</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Cookies_Cream</item>
+        <item name="colorSecondaryVariant">@color/Light_Silver</item>
+        <item name="colorOnSecondary">@color/Azure_White</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/Azure_White</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+    <style name="Theme.OsProject.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.OsProject.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.OsProject.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

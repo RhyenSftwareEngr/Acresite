@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Light_Silver">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="411dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="667dp"
+        android:layout_weight="1"
+        android:background="?android:colorPrimary"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Dashboard"
+            android:textColor="?android:textColorPrimary"
+            android:textAlignment="center"
+            android:textSize="12pt"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="11dp" />
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="413dp"
+        android:layout_height="616dp"
+        android:backgroundTint="@color/Light_Silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.559">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="411dp"
+            android:layout_height="175dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="441dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/me_name7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Onions for SALE!!!"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="?android:textColorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.881"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.111" />
+
+            <TextView
+                android:id="@+id/me_name8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qty: 300"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="?android:textColorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.551"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.653" />
+
+            <TextView
+                android:id="@+id/me_name9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: PHP 69.90"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="?android:textColorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.424" />
+
+            <TextView
+                android:id="@+id/me_name11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Views: 10"
+                android:textColor="?android:textColorPrimary"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.567"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.895" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="102dp"
+                android:layout_height="49dp"
+                android:text="Edit Product"
+                android:textSize="12sp"
+                android:textColor="?android:textColorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/me_name11"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.968" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="154dp"
+                android:layout_height="136dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="23dp"
+                android:layout_marginBottom="23dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/me_name7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/onion" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

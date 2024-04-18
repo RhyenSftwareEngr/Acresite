@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:foregroundTint="@color/Deep_Peach">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cs2"
+        android:layout_width="411dp"
+        android:layout_height="234dp"
+        android:background="@color/Light_Silver"
+        app:layout_constraintBottom_toTopOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="413dp"
+        android:layout_height="178dp"
+        android:background="@color/Deep_Peach"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="112dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sample_icon_tres" />
+
+        <TextView
+            android:id="@+id/me_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="71dp"
+            android:text="SELLER NAME: Kim Minyoung"
+            android:textAlignment="textStart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/me_name3"
+            android:layout_width="192dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="37dp"
+            android:text="ADDRESS: San Josef Norte, Cabanatuan City, Nueva Ecija"
+            android:textAlignment="textStart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/me_name2" />
+
+        <TextView
+            android:id="@+id/me_name4"
+            android:layout_width="233dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="25dp"
+            android:text="SELLER PROFILE"
+            android:textAlignment="textStart"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/me_name2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="675dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="BottomAppBar" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="69dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="672dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton11"
+        app:layout_constraintStart_toStartOf="@+id/bottomAppBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/seller_products" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="69dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="672dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bottomAppBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/seller_order" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="69dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="672dp"
+        android:backgroundTint="@color/Tumbleweed"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bottomAppBar"
+        app:layout_constraintStart_toEndOf="@+id/imageButton11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/seller_me" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cs1"
+        android:layout_width="411dp"
+        android:layout_height="265dp"
+        android:background="@color/Light_Silver"
+        app:layout_constraintBottom_toTopOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43">
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="106dp"
+            android:layout_height="104dp"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton14"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/seller_complete" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="106dp"
+            android:layout_height="104dp"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton14"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/seller_pack"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="106dp"
+            android:layout_height="104dp"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/seller_deliver"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/me_name5"
+            android:layout_width="150dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginEnd="130dp"
+            android:text="ORDER STATUS"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.116" />
+
+        <TextView
+            android:id="@+id/textViewA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To Pack"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="194dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textViewA2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To Deliver"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="194dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textViewA3"
+            android:layout_width="84dp"
+            android:layout_height="37dp"
+            android:text="Completed Orders"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteY="194dp"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

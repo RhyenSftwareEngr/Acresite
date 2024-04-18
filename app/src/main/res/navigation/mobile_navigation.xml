@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.osproject.UI.Home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" >
+        <argument android:name="test"
+            app:argType="string"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_orders"
+        android:name="com.example.osproject.UI.Seller.SellerFragment"
+        android:label="@string/seller"
+        tools:layout="@layout/fragment_seller" />
+
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="com.example.osproject.UI.Me.MeFragment"
+        android:label="@string/me"
+        tools:layout="@layout/fragment_me" />
+</navigation>
